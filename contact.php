@@ -8,6 +8,6 @@ $page_title = "Contact";
     ?>
 
     <h1>Contact Page</h1>
-    ?>
+    
 </body>
 </html>
