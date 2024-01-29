@@ -7,7 +7,7 @@ $page_title = "Contact";
     <?php include('./components/nav.php');
     ?>
 
-    <h1>Contact Page</h1>
+    
     
 </body>
 </html>
