@@ -3,6 +3,7 @@
 <body>
 <?php include('./components/head.php');
       include('./components/nav.php');
+      include('./components/footer.php');
 ?>
  <header>
       
