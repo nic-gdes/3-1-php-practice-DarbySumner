@@ -1,14 +1,16 @@
 body {
     display: grid;
-    margin: 0;
+    margin: auto;
     font-family: "katarine-web", sans-serif;
     font-weight: 400;
     font-style: normal;
     padding-left: 30px;
     padding-right: 30px;
-    width: fit-content;
+    max-width: 1920px;
+    height: auto;
     padding-left: 30px;
     padding-right: 30px;
+   
 }
 
 h1 {
@@ -18,7 +20,6 @@ h1 {
 .grid-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 30px;  
@@ -41,4 +42,43 @@ a {
     padding: 20px;
    
 
+}
+
+/*Form Styling*/
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #7e5fa0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #7e5fa0;
+}
+
+.contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  min-width: 50%;
+  max-width: 500px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
