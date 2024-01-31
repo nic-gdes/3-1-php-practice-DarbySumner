@@ -2,18 +2,15 @@
 <html lang="en">
 <body>
 <?php include('./components/head.php');
+      include('./components/nav.php');
+     
 ?>
+      <main>
+           
+             
+      </main>
 
-<?php
-$page_title = "Contact";
-?>
+     <?php include('./components/footer.php'); ?>
 
-<body>
-
-    <?php include('./components/nav.php');
-    ?>
-
-    
-    
 </body>
 </html>

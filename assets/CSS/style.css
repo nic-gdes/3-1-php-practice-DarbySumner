@@ -1,16 +1,20 @@
 body {
     display: grid;
-    width: auto;
+    margin: 0;
     font-family: "katarine-web", sans-serif;
     font-weight: 400;
     font-style: normal;
-    overflow-x: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 h1 {
     text-align: center;
 }
-
+/*Image grid layout*/
 .grid-container {
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +24,7 @@ h1 {
     gap: 30px;  
 }
 
+/*Nav links*/
 a {
     display: inline-block;
     padding: 20px;
@@ -29,10 +34,10 @@ a {
 
 .footer {
     display: inline-block;
+    position: relative;
+    width: 100%;
+    bottom: 0;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto; 
-    width: auto;
     padding: 20px;
    
 
