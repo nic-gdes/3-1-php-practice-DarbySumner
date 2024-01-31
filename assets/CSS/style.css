@@ -1,6 +1,7 @@
 body {
     display: grid;
     margin: auto;
+    min-width: 50%;
     font-family: "katarine-web", sans-serif;
     font-weight: 400;
     font-style: normal;
